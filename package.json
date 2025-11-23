@@ -1,0 +1,11 @@
+{
+    "name": "lp-gift-asset",
+    "version": "1.0.0",
+    "description": "Classmethod Gift Strategy LP",
+    "scripts": {
+        "build": "echo 'Static site, no build needed'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
