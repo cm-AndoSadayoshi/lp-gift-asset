@@ -1,14 +1,14 @@
 :root {
-    --bg-color: #050507;
-    --surface-color: #121216;
-    --surface-hover: #1c1c22;
-    --text-primary: #ffffff;
-    --text-secondary: #a1a1aa;
-    --accent-primary: #3b82f6;
-    --accent-secondary: #8b5cf6;
-    --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-    --accent-glow: 0 0 40px rgba(59, 130, 246, 0.3);
-    --border-color: #27272a;
+    --bg-color: #ffffff;
+    --surface-color: #f8fafc;
+    --surface-hover: #f1f5f9;
+    --text-primary: #18181b;
+    --text-secondary: #52525b;
+    --accent-primary: #2563eb;
+    --accent-secondary: #7c3aed;
+    --accent-gradient: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+    --accent-glow: 0 0 40px rgba(37, 99, 235, 0.15);
+    --border-color: #e4e4e7;
     --font-main: 'Outfit', sans-serif;
     --container-width: 1200px;
     --header-height: 80px;
