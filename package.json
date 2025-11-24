@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Classmethod Gift Strategy LP",
     "scripts": {
-        "build": "mkdir -p public && cp index.html style.css script.js line-gift-logo.jpg public/"
+        "build": "mkdir -p public && cp index.html style.css script.js line-gift-logo.jpg line-miniapp-logo.png public/"
     },
     "keywords": [],
     "author": "",
