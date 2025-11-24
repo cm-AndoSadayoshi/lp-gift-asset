@@ -259,7 +259,7 @@ h6 {
 }
 
 .solution-visual {
-    background: var(--surface-color);
+    background: #ffffff;
     border-radius: 24px;
     aspect-ratio: 4/3;
     display: flex;
@@ -270,11 +270,9 @@ h6 {
     border: 1px solid var(--border-color);
 }
 
+/* Removed gradient overlay to match image background */
 .solution-visual::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    display: none;
 }
 
 .solution-content h3 {
