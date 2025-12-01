@@ -4,151 +4,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classmethod Gift Strategy - LINE Gift & Social Gift Solutions</title>
+    <title>ソーシャルギフトアセット | グロースパック for LINE</title>
+    <meta name="description" content="住所を知らなくても、URLを送るだけ。キャンペーンの配送コストをゼロにし、受け取り手の「会員化」まで実現する、CRM一体型ギフトツールです。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-text">グロースパック <span class="logo-sub">for <span
+                            class="line-brand">LINE</span></span></span>
+            </div>
+            <nav class="nav">
+                <a href="#contact" class="btn btn-sm btn-primary">お問い合わせ</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container hero-content">
-            <h1>
-                「LINEギフト出店」と<span class="gradient-text">「独自ミニアプリ構築」</span>
-            </h1>
-            <p>
-                認知獲得のための「LINEギフト」連携開発から、ロイヤリティ向上のための「自社ソーシャルギフト」構築まで。<br>
-                グロースパック for LINEが、貴社のギフト戦略を技術面から包括的に支援します。
-            </p>
-            <a href="#contact" class="btn btn-primary">お問い合わせ・ご相談はこちら</a>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-catch">そのギフト施策、<br class="sp-only">「配って終わり」になっていませんか？</p>
+                <h1 class="hero-title">
+                    <span class="no-break">顧客データにつながる、育つ。</span><br>
+                    <span class="gradient-text no-break">次世代の「ソーシャルギフト」アセット</span>
+                </h1>
+                <p class="hero-desc">
+                    住所を知らなくても、URLを送るだけ。<br>
+                    キャンペーンの配送コストをゼロにし、受け取り手の「会員化」まで実現する、CRM一体型ギフトツールです。
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-secondary">デモを利用してみる</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <img src="hero.png" alt="ソーシャルギフトアセット イメージ" class="hero-img">
+            </div>
         </div>
     </section>
 
-    <!-- Introduction Section -->
-    <section class="section">
+    <!-- Challenges Section -->
+    <section class="section challenges" id="challenges">
         <div class="container">
-            <div class="intro-header reveal">
-                <h2>デジタルギフト戦略には、異なる<span class="gradient-text">「2つのアプローチ」</span>があります。</h2>
-                <p>
-                    「巨大プラットフォームへの出店」と「自社でのギフト機能保有」。<br>
-                    それぞれ得られるメリットが異なるため、自社のフェーズや目的に合わせた技術選定が不可欠です。
-                </p>
+            <div class="section-header text-center">
+                <h2 class="section-title">こんなお悩みありませんか？</h2>
+                <p class="section-subtitle">SNSキャンペーンや配送業務で消耗しているなら…</p>
             </div>
-
-            <div class="comparison-grid">
-                <!-- Option A -->
-                <div class="comparison-card reveal">
-                    <span class="card-badge">Approach A</span>
-                    <h3>LINEギフト<br><small
-                            style="font-size: 0.6em; color: var(--text-secondary);">（公式プラットフォーム）への出店</small></h3>
-                    <ul class="comparison-list">
-                        <li>
-                            <strong>主な目的：新規認知の獲得・リーチ</strong>
-                            9,700万人のLINEユーザーへアプローチ
-                        </li>
-                        <li>
-                            <strong>技術的課題：高度なバックエンド連携が必要</strong>
-                            既存ECなどの販売チャネルが存在する場合、在庫管理や受注データを、自社基幹システムとリアルタイムに同期させる高度なAPI開発が必要。
-                        </li>
-                    </ul>
+            <div class="challenges-grid">
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">📦</div>
+                    <p><strong>配送コスト・手間がかかる</strong><br>現物商品の梱包や発送作業が大変。個人情報の管理リスクも心配。</p>
                 </div>
-
-                <!-- Option B -->
-                <div class="comparison-card reveal">
-                    <span class="card-badge">Approach B</span>
-                    <h3>自社ソーシャルギフト<br><small style="font-size: 0.6em; color: var(--text-secondary);">（ミニアプリ）の構築</small>
-                    </h3>
-                    <ul class="comparison-list">
-                        <li>
-                            <strong>主な目的：ロイヤリティ向上・リファラル</strong>
-                            既存顧客（会員）の囲い込みと紹介促進
-                        </li>
-                        <li>
-                            <strong>技術的課題：開発コストと会員連携の複雑さ</strong>
-                            ゼロからの開発はコストが高く、既存の会員データとの紐付け（ID連携）も複雑になりがち。
-                        </li>
-                    </ul>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">👤</div>
+                    <p><strong>「誰」に渡ったかわからない</strong><br>デジタルギフトを配っても、匿名なのでその後の追客や分析ができない。</p>
                 </div>
-            </div>
-
-            <div style="text-align: center; margin-top: 60px;" class="reveal">
-                <p style="font-size: 1.2rem; font-weight: 600;">
-                    当社はこれらの課題に対し、<span class="gradient-text">「システム受託開発（SI）」</span>と<span
-                        class="gradient-text">「アセット提供」</span>という<br>2つの解決策をご用意しました。
-                </p>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">💸</div>
+                    <p><strong>既存システム連携が高額</strong><br>自社ECと連携したeギフトをやりたいが、スクラッチ開発は予算が合わない。</p>
+                </div>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">🤝</div>
+                    <p><strong>LINEギフトに出店したい</strong><br>販売チャネルを拡大したいが、在庫連携などの技術的ハードルが高い。</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Solutions Section -->
-    <section class="section">
+    <section class="section solutions" id="solutions">
         <div class="container">
-            <!-- Solution 1 -->
-            <div class="solution-block reveal">
-                <div class="solution-visual">
-                    <img src="line-gift-logo.jpg" alt="LINE Gift Logo" style="max-width: 80%; height: auto;">
-                </div>
-                <div class="solution-content">
-                    <span class="card-badge">新規顧客獲得・大規模展開</span>
-                    <h3>基幹システムとセキュアに同期。<br><span class="gradient-text">「LINEギフト」連携開発支援</span></h3>
-                    <p>
-                        LINEギフトは強力な販売チャネルですが、出店には自社の商品データベース（DB）や購買システムとの正確な連携が不可欠です。
-                        当社は、<strong>世界的なハイブランドコスメのLINEギフト出店</strong>において、商品DBおよび購買情報のセキュアな連携を実現した実績がございます。
-                    </p>
-                    <p>
-                        この知見を活かし、貴社の既存システム環境に合わせた、大規模トラフィックに耐えうる堅牢な連携フローを設計・開発いたします。
-                    </p>
-                </div>
+            <div class="section-header text-center">
+                <h2 class="section-title">その悩み、「ソーシャルギフト」アセットで解決できます。</h2>
             </div>
 
-            <!-- Solution 2 -->
-            <div class="solution-block reverse reveal">
-                <div class="solution-visual">
-                    <img src="line-miniapp-logo.png" alt="LINE Mini App Logo" style="max-width: 50%; height: auto;">
+            <div class="solutions-grid reveal">
+                <div class="solution-card">
+                    <h3>URLひとつで、在庫を<br>「デジタルチケット」化。</h3>
+                    <p>自社商品をデジタルチケットとして即時発行。LINEやSNSのDMでURLを送るだけでギフトが完了します。住所入力や配送の手間をゼロにし、リアルタイムなキャンペーンを実現します。</p>
                 </div>
-                <div class="solution-content">
-                    <span class="card-badge"
-                        style="color: var(--accent-secondary); background: rgba(139, 92, 246, 0.1);">ロイヤリティ向上・リピート施策</span>
-                    <h3>「グロースパック」標準機能で、<br><span class="gradient-text">スピーディーに「自社ギフト」を開始</span></h3>
-                    <p>
-                        自社のLINEミニアプリ内に、手軽にeギフト機能を実装できるサービスです。「開発」ではなくツールの一機能として提供されるため、スピーディーな導入が可能です。
-                    </p>
-                    <p>
-                        <strong>CRM（顧客管理）機能と一体化</strong>している点が最大の特徴。「来店回数が多いロイヤル顧客だけにギフト販売の案内を送る」など、既存顧客の熱量を活かしたリファラル（紹介）施策に特化しています。受け取り手の会員登録もシームレスに行え、顧客データを自社資産として蓄積できます。
-                    </p>
+                <div class="solution-card">
+                    <h3>受け取りと同時に「会員化」。<br>データが見える。</h3>
+                    <p>ギフト受け取り時にLINEログイン（会員登録）を求めることで、自然な形で友だち追加と会員化を促進。「誰が受け取ったか」を可視化し、次のマーケティングにつなげます。</p>
+                </div>
+                <div class="solution-card">
+                    <h3>LINEギフト出店レベルの<br>「堅牢な技術」も対応。</h3>
+                    <p>手軽なアセット導入だけでなく、ハイブランドの実績もある「LINEギフト公式出店」のための高度な在庫連携開発まで、貴社のフェーズに合わせた技術支援が可能です。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Us Section -->
-    <section class="section why-us">
-        <div class="container why-us-content reveal">
-            <h2>フロントエンドからバックエンドまで。<br>店舗ビジネスのDXを支える<span class="gradient-text">技術パートナー</span></h2>
-            <p>
-                私たちは、LINE活用における「フロント機能の提供（SaaS）」から、複雑な「バックエンドの連携開発（SI）」まで、企業のDXフェーズや戦略に合わせて柔軟に対応できる技術力を持っています。
-            </p>
-            <p>
-                AWS等のクラウド技術コンサルティング、データ分析基盤の開発運用実績を持つクラスメソッドが、貴社のビジネス成長をセキュアかつスケーラブルに支援します。
-            </p>
+    <!-- Comparison Section -->
+    <section class="section comparison" id="comparison">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">機能比較</h2>
+                <p class="section-subtitle">無料ツールとここが違います。<br>本格的なCRM運用なら「ソーシャルギフトアセット」</p>
+            </div>
+            <div class="comparison-table-wrapper reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>比較項目</th>
+                            <th>一般的なデジタルギフトツール</th>
+                            <th class="highlight">ソーシャルギフトアセット (本製品)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>会員情報の取得</td>
+                            <td>△ 困難（匿名利用が多い）</td>
+                            <td class="highlight"><strong>◎ 会員IDと完全連携</strong></td>
+                        </tr>
+                        <tr>
+                            <td>自社商品の活用</td>
+                            <td>× 他社ギフト券が中心</td>
+                            <td class="highlight"><strong>◎ 自社在庫をギフト化可能</strong></td>
+                        </tr>
+                        <tr>
+                            <td>配送・管理コスト</td>
+                            <td>× 現物配送が必要な場合あり</td>
+                            <td class="highlight"><strong>◎ 完全デジタル完結</strong></td>
+                        </tr>
+                        <tr>
+                            <td>LINE連携</td>
+                            <td>△ 別途開発が必要</td>
+                            <td class="highlight"><strong>◎ 標準対応（ミニアプリ）</strong></td>
+                        </tr>
+                        <tr>
+                            <td>拡張性</td>
+                            <td>× ツール機能の範囲内</td>
+                            <td class="highlight"><strong>◎ 大規模開発への移行も可能</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </section>
 
-    <!-- Footer & CTA -->
+    <!-- Use Cases Section -->
+    <section class="section use-cases" id="use-cases">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">活用シーン</h2>
+                <p class="section-subtitle">業種別の具体的ユースケース</p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">飲食・小売</span>
+                        <h3>お友達紹介（リファラル）クーポン</h3>
+                    </div>
+                    <p>「友達にこのURLを送ると、あなたも友達もドリンク1杯無料」。既存顧客が営業マンになり、新規客を連れてくる仕組みを構築。</p>
+                </div>
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">EC・メーカー</span>
+                        <h3>SNSキャンペーンの即時付与</h3>
+                    </div>
+                    <p>X（Twitter）キャンペーンの当選者にDMでギフトURLを送付。個人情報を聞くことなく、商品は店舗またはECで引き換え。</p>
+                </div>
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">イベント・施設</span>
+                        <h3>来場者限定特典の配布</h3>
+                    </div>
+                    <p>イベント会場のQRコードを読み込むと、その場限定のデジタルグッズや割引券を付与。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content reveal">
+                <h2 class="section-title">グロースパック for LINEについて</h2>
+                <p class="about-lead">クラスメソッドが提供する、LINEミニアプリ開発の最短ルート</p>
+                <p>「グロースパック for LINE」は、LINEミニアプリに必要な機能をパッケージ化したサービスです。<br>
+                    ゼロからの開発（フルスクラッチ）に比べ、<strong>圧倒的な低コスト・短期間</strong>での導入を実現します。</p>
+
+                <div class="synergy-section">
+                    <h3 class="synergy-title">他アセットとのシナジー</h3>
+                    <div class="synergy-grid">
+                        <div class="synergy-card">
+                            <h4>[会員証アセット]と連携。<br>「配った後」を追跡。</h4>
+                            <p>ギフトを受け取って来店した顧客が、その後リピーターになったかどうかをトラッキング。単発のバラマキ施策で終わらせません。</p>
+                        </div>
+                        <div class="synergy-card">
+                            <h4>[セグメント配信]と連携。<br>利用期限前に自動リマインド。</h4>
+                            <p>「ギフトの有効期限があと3日です」といったメッセージをLINEで自動配信。利用忘れを防ぎ、来店機会を確実に創出します。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flow Section -->
+    <section class="section flow" id="flow">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">導入フロー・サポート</h2>
+                <p class="section-subtitle">導入から運用・改善まで伴走します</p>
+            </div>
+            <div class="flow-steps">
+                <div class="flow-step reveal">
+                    <div class="step-number">01</div>
+                    <h3>ヒアリング</h3>
+                    <p>貴社の現状課題と実現したいギフト施策をお伺いします。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">02</div>
+                    <h3>要件定義</h3>
+                    <p>必要なロジックやデザインを設計します。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">03</div>
+                    <h3>開発・導入</h3>
+                    <p>スピーディに環境を構築し、リリースします。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">04</div>
+                    <h3>グロース支援</h3>
+                    <p>導入後のデータ分析やKPI設定もサポートします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-cta reveal">
-                <h2>ギフト戦略の技術的なご相談から、<br>具体的な実装まで。</h2>
-                <p style="margin-bottom: 40px; color: var(--text-secondary);">まずはお気軽にお問い合わせください。</p>
-                <a href="#" class="btn btn-primary">お問い合わせフォームへ</a>
+                <h2 class="footer-title">「贈る」をきっかけに、顧客とつながる。</h2>
+                <p class="footer-desc">まずは詳細な機能・事例がわかる資料をご覧ください。</p>
+                <div class="footer-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">資料ダウンロード</a>
+                    <a href="#" class="btn btn-secondary btn-lg">お問い合わせ・お見積もり</a>
+                </div>
             </div>
-
             <div class="company-info">
                 <p>クラスメソッド株式会社 (Classmethod, Inc.)</p>
-                <p>〒105-0003 東京都港区西新橋1-1-1 日比谷フォートタワー26階</p>
             </div>
         </div>
     </footer>
